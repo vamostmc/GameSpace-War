@@ -1,0 +1,36 @@
+﻿Build started 9/5/2022 10:24:31 AM.
+     1>Project "C:\Users\Admin\Documents\Visual Studio 2012\Projects\GameSDL\GameSDL\GameSDL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AmoObject.cpp BaseObject.cpp Common_Function.cpp Main.cpp MainObject.cpp TextObject.cpp ThreatesObject.cpp
+         AmoObject.cpp
+         Generating Code...
+         Compiling...
+         ThreatesObject.cpp
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\threatesobject.cpp(8): warning C4244: '=' : conversion from 'double' to 'Sint16', possible loss of data
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\threatesobject.cpp(31): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\threatesobject.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\threatesobject.cpp(52): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+         TextObject.cpp
+         MainObject.cpp
+         Main.cpp
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\main.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\main.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\main.cpp(116): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Common_Function.cpp
+         BaseObject.cpp
+     1>c:\users\admin\documents\visual studio 2012\projects\gamesdl\gamesdl\baseobject.cpp(17): warning C4101: 'p_object_' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Documents\Visual Studio 2012\Projects\GameSDL\Debug\GameSDL.exe" /INCREMENTAL /NOLOGO SDL.lib SDLMain.lib SDL_image.lib SDL_mixer.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Documents\Visual Studio 2012\Projects\GameSDL\Debug\GameSDL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Documents\Visual Studio 2012\Projects\GameSDL\Debug\GameSDL.lib" /MACHINE:X86 Debug\AmoObject.obj
+         Debug\BaseObject.obj
+         Debug\Common_Function.obj
+         Debug\Main.obj
+         Debug\MainObject.obj
+         Debug\TextObject.obj
+         Debug\ThreatesObject.obj
+         GameSDL.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2012\Projects\GameSDL\Debug\GameSDL.exe
+     1>Done Building Project "C:\Users\Admin\Documents\Visual Studio 2012\Projects\GameSDL\GameSDL\GameSDL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.78

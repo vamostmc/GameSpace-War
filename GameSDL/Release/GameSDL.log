@@ -1,0 +1,62 @@
+﻿Build started 27/03/2024 6:28:27 PM.
+     1>Project "D:\GameSDL\GameSDL\GameSDL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AmoObject.cpp BaseObject.cpp Common_Function.cpp ExplosionObject.cpp Main.cpp MainObject.cpp TextObject.cpp ThreatesObject.cpp
+         AmoObject.cpp
+     1>AmoObject.cpp(29): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>AmoObject.cpp(47): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         BaseObject.cpp
+     1>BaseObject.cpp(17): warning C4101: 'p_object_' : unreferenced local variable
+         Common_Function.cpp
+         ExplosionObject.cpp
+         Main.cpp
+     1>Main.cpp(65): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>Main.cpp(87): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Main.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(190): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+         MainObject.cpp
+     1>MainObject.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>MainObject.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>MainObject.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+         TextObject.cpp
+         ThreatesObject.cpp
+     1>ThreatesObject.cpp(8): warning C4244: '=' : conversion from 'double' to 'Sint16', possible loss of data
+     1>ThreatesObject.cpp(31): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>ThreatesObject.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>ThreatesObject.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>ThreatesObject.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(79): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>ThreatesObject.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(97): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>ThreatesObject.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(115): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>ThreatesObject.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(178): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(197): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(212): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(214): warning C4018: '<' : signed/unsigned mismatch
+     1>ThreatesObject.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GameSDL\Release\GameSDL.exe" /INCREMENTAL:NO /NOLOGO SDL.lib SDLmain.lib SDL_image.lib SDL_mixer.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GameSDL\Release\GameSDL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GameSDL\Release\GameSDL.lib" /MACHINE:X86 /SAFESEH Release\AmoObject.obj
+         Release\BaseObject.obj
+         Release\Common_Function.obj
+         Release\ExplosionObject.obj
+         Release\Main.obj
+         Release\MainObject.obj
+         Release\TextObject.obj
+         Release\ThreatesObject.obj
+         Generating code
+     1>d:\gamesdl\gamesdl\mainobject.cpp(125): warning C4715: 'MainObject::RemoveAmo' : not all control paths return a value
+         Finished generating code
+         GameSDL.vcxproj -> D:\GameSDL\Release\GameSDL.exe
+     1>Done Building Project "D:\GameSDL\GameSDL\GameSDL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.91
